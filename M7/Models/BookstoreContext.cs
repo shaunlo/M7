@@ -20,5 +20,6 @@ namespace M7.Models
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Shopping> Shoppings { get; set; }
     }
 }
